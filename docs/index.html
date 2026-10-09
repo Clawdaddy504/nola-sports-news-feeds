@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Best Sports Bars NOLA · Sports News Feeds</title>
+    <style>
+      :root { color-scheme: light; font-family: system-ui, sans-serif; background: #d4bd8c; color: #101820; }
+      body { max-width: 880px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+      h1 { font-size: clamp(2rem, 7vw, 4rem); line-height: 1; margin-bottom: .5rem; }
+      p { line-height: 1.5; }
+      a { color: inherit; text-decoration-thickness: .08em; text-underline-offset: .15em; }
+      a:hover { background: #fff; }
+      ul { padding-left: 1.25rem; line-height: 1.8; }
+      .meta { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+      .links { display: flex; gap: 1rem; flex-wrap: wrap; }
+      .feed { border-top: 2px solid #101820; padding: 1rem 0; }
+      .feed h2 { margin: 0 0 .25rem; }
+      .feed p { margin: .25rem 0; }
+    </style>
+  </head>
+  <body>
+    <p class="meta">Best Sports Bars NOLA</p>
+    <h1>Sports news feeds</h1>
+    <p>Fresh headlines from the original publishers, updated about every three hours. Each story links back to its source.</p>
+    <p id="updated" class="meta">Loading feed status…</p>
+    <main id="feeds"><p><a href="index.json">Open the feed index</a></p></main>
+    <script>
+      fetch('index.json').then(response => response.json()).then(index => {
+        document.getElementById('updated').textContent = `Updated ${new Date(index.generated_at).toLocaleString()} · ${index.successful_sources}/${index.source_count} sources reached`;
+        const main = document.getElementById('feeds');
+        main.replaceChildren();
+        for (const feed of index.feeds) {
+          const section = document.createElement('section');
+          section.className = 'feed';
+          const title = document.createElement('h2');
+          title.textContent = feed.title;
+          const count = document.createElement('p');
+          count.textContent = `${feed.count} recent headlines`;
+          const links = document.createElement('p');
+          links.className = 'links';
+          for (const [label, href] of [['RSS', feed.rss], ['JSON', feed.json]]) {
+            const anchor = document.createElement('a');
+            anchor.href = href;
+            anchor.textContent = label;
+            links.append(anchor);
+          }
+          section.append(title, count, links);
+          main.append(section);
+        }
+      }).catch(() => {
+        document.getElementById('updated').textContent = 'Feed status temporarily unavailable';
+      });
+    </script>
+  </body>
+</html>

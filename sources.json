@@ -1,0 +1,467 @@
+{
+  "description": "Normalized catalog from Sports_rss_feeds.zip, checked 2026-10-09. One verified Louisiana source was added. Disabled sources failed retrieval or were not RSS/Atom.",
+  "sources": [
+    {
+      "category": "Major Global Sports Networks",
+      "title": "BBC Sport",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "enabled": true
+    },
+    {
+      "category": "Major Global Sports Networks",
+      "title": "Sky Sports",
+      "url": "https://www.skysports.com/rss/12040",
+      "enabled": true
+    },
+    {
+      "category": "Major Global Sports Networks",
+      "title": "NBC Sports",
+      "url": "https://www.nbcsports.com/index.atom",
+      "enabled": true
+    },
+    {
+      "category": "Major Global Sports Networks",
+      "title": "Deadspin News",
+      "url": "https://deadspin.com/rss",
+      "enabled": true
+    },
+    {
+      "category": "Major Global Sports Networks",
+      "title": "The Athletic General",
+      "url": "https://www.nytimes.com/athletic/rss/news",
+      "enabled": true
+    },
+    {
+      "category": "Sports News Aggregators",
+      "title": "SB Nation",
+      "url": "https://www.sbnation.com/rss/index.xml",
+      "enabled": true
+    },
+    {
+      "category": "Sports News Aggregators",
+      "title": "EssentiallySports",
+      "url": "https://www.essentiallysports.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports News Aggregators",
+      "title": "The Roar Australia",
+      "url": "https://www.theroar.com.au/feed",
+      "enabled": false
+    },
+    {
+      "category": "Sports News Aggregators",
+      "title": "SportsRation",
+      "url": "https://sportsration.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports News Aggregators",
+      "title": "SportsMint Media",
+      "url": "https://sportsmintmedia.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Official Leagues & Outlets",
+      "title": "Motorsport Network",
+      "url": "https://www.motorsport.com/rss/google",
+      "enabled": false
+    },
+    {
+      "category": "Official Leagues & Outlets",
+      "title": "Golf Magazine",
+      "url": "https://golf.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Official Leagues & Outlets",
+      "title": "Boxing News Online",
+      "url": "https://www.boxingnewsonline.net/feed",
+      "enabled": true
+    },
+    {
+      "category": "Official Leagues & Outlets",
+      "title": "San Francisco 49ers",
+      "url": "https://www.49ers.com/rss/news",
+      "enabled": true
+    },
+    {
+      "category": "Soccer & Football News",
+      "title": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/rss",
+      "enabled": true
+    },
+    {
+      "category": "Soccer & Football News",
+      "title": "These Football Times",
+      "url": "https://thesefootballtimes.co/feed",
+      "enabled": false
+    },
+    {
+      "category": "Soccer & Football News",
+      "title": "World Soccer Talk",
+      "url": "https://worldsoccertalk.com/rss/feed",
+      "enabled": true
+    },
+    {
+      "category": "Soccer & Football News",
+      "title": "The Athletic Football",
+      "url": "https://www.nytimes.com/athletic/rss/football",
+      "enabled": true
+    },
+    {
+      "category": "Soccer & Football News",
+      "title": "SoccerNews Global",
+      "url": "https://www.soccernews.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "NBA & Basketball News",
+      "title": "RealGM Basketball",
+      "url": "https://basketball.realgm.com/rss/wiretap/0/0.xml",
+      "enabled": true
+    },
+    {
+      "category": "NBA & Basketball News",
+      "title": "BasketballNews",
+      "url": "https://www.basketballnews.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "NBA & Basketball News",
+      "title": "Basketball Insiders",
+      "url": "https://www.basketballinsiders.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "NBA & Basketball News",
+      "title": "Eurohoops Basketball",
+      "url": "https://www.eurohoops.net/feed",
+      "enabled": true
+    },
+    {
+      "category": "NBA & Basketball News",
+      "title": "The Athletic NBA",
+      "url": "https://www.nytimes.com/athletic/rss/nba",
+      "enabled": true
+    },
+    {
+      "category": "NFL & American Football",
+      "title": "Bleacher Report Jaguars",
+      "url": "https://feeds.bleacherreport.com/articles/feed",
+      "enabled": false
+    },
+    {
+      "category": "NFL & American Football",
+      "title": "Yahoo Sports NFL",
+      "url": "https://sports.yahoo.com/rss",
+      "enabled": true
+    },
+    {
+      "category": "NFL & American Football",
+      "title": "Vikings Territory",
+      "url": "https://vikingsterritory.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "MLB & Baseball News",
+      "title": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "MLB & Baseball News",
+      "title": "Baseball America",
+      "url": "https://www.baseballamerica.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "MLB & Baseball News",
+      "title": "Baseball Prospectus",
+      "url": "https://www.baseballprospectus.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "MLB & Baseball News",
+      "title": "Baseball Reference Blog",
+      "url": "https://www.baseball-reference.com/br-blog/feed/",
+      "enabled": true
+    },
+    {
+      "category": "MLB & Baseball News",
+      "title": "Pitcher List",
+      "url": "https://www.pitcherlist.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "Autosport Network",
+      "url": "https://www.autosport.com/rss/feed/all",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "The Race Motorsport",
+      "url": "https://the-race.com/rss",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "GP Blog MotoGP",
+      "url": "https://www.gpblog.com/en/sitemap/news.xml",
+      "enabled": false
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "Jalopnik Automotive",
+      "url": "https://jalopnik.com/category/news/feed",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "PlanetF1 Racing",
+      "url": "https://www.planetf1.com/rss",
+      "enabled": true
+    },
+    {
+      "category": "Motorsport & Racing",
+      "title": "Crash Motorsport",
+      "url": "https://www.crash.net/rss",
+      "enabled": true
+    },
+    {
+      "category": "Combat Sports (MMA & Boxing)",
+      "title": "Bloody Elbow MMA",
+      "url": "https://www.bloodyelbow.com/feed",
+      "enabled": false
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "NDTV Sports Cricket",
+      "url": "https://feeds.feedburner.com/ndtvsports-latest",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "Times of India Sports",
+      "url": "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "The Indian Express Sports",
+      "url": "https://indianexpress.com/section/sports/feed/",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "The Hindu Sports",
+      "url": "https://www.thehindu.com/sport/feeder/default.rss",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "Firstpost Sports",
+      "url": "https://www.firstpost.com/commonfeeds/v1/mfp/rss/sports.xml",
+      "enabled": false
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "Mint Sports",
+      "url": "https://www.livemint.com/rss/sports",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "Business Standard Sports",
+      "url": "https://www.business-standard.com/rss/sports-108.rss",
+      "enabled": false
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "The Tribune India Sports",
+      "url": "https://publish.tribuneindia.com/news/feed/",
+      "enabled": true
+    },
+    {
+      "category": "Indian Sports Outlets",
+      "title": "ET Now Sports",
+      "url": "https://www.etnownews.com/feeds/gns-etn-sports.xml",
+      "enabled": true
+    },
+    {
+      "category": "UK & Ireland Outlets",
+      "title": "The Independent Sport UK",
+      "url": "https://www.independent.co.uk/sport/rss",
+      "enabled": false
+    },
+    {
+      "category": "UK & Ireland Outlets",
+      "title": "Sports News Ireland",
+      "url": "https://www.sportsnewsireland.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "UK & Ireland Outlets",
+      "title": "World in Sport UK",
+      "url": "https://worldinsport.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Australian Sports Outlets",
+      "title": "Sydney Morning Herald Sports",
+      "url": "https://www.smh.com.au/rss/sport.xml",
+      "enabled": true
+    },
+    {
+      "category": "Australian Sports Outlets",
+      "title": "The Age Sports Australia",
+      "url": "https://www.theage.com.au/rss/sport.xml",
+      "enabled": true
+    },
+    {
+      "category": "Australian Sports Outlets",
+      "title": "Sports News Australia",
+      "url": "https://www.sportsnews.com.au/feed",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "Los Angeles Times Sports",
+      "url": "https://www.latimes.com/sports.rss",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "Boston Digital Sports",
+      "url": "https://www.boston.com/category/sports/feed",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "PhillyVoice Sports",
+      "url": "https://www.phillyvoice.com/feed/section/sports/",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "Washington Times Sports",
+      "url": "https://www.washingtontimes.com/rss/headlines/sports/",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "WFAA Texas Sports",
+      "url": "https://www.wfaa.com/feeds/syndication/rss/sports",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "KING5 Seattle Sports",
+      "url": "https://www.king5.com/feeds/syndication/rss/sports",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "KARE11 Minnesota Sports",
+      "url": "https://www.kare11.com/feeds/syndication/rss/sports",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "KHOU Houston Sports",
+      "url": "https://www.khou.com/feeds/syndication/rss/sports",
+      "enabled": true
+    },
+    {
+      "category": "US Regional & Local Outlets",
+      "title": "ClickOnDetroit Local Sports",
+      "url": "https://www.clickondetroit.com/arc/outboundfeeds/rss/category/sports/",
+      "enabled": false
+    },
+    {
+      "category": "International Outlets",
+      "title": "Sportschau Germany",
+      "url": "https://www.sportschau.de/index~rss2.xml",
+      "enabled": true
+    },
+    {
+      "category": "International Outlets",
+      "title": "Deutsche Welle Sports",
+      "url": "https://rss.dw.com/rdf/rss-en-sports",
+      "enabled": true
+    },
+    {
+      "category": "International Outlets",
+      "title": "France 24 Sports",
+      "url": "https://www.france24.com/en/sport/rss",
+      "enabled": true
+    },
+    {
+      "category": "International Outlets",
+      "title": "Yonhap News Agency Sports",
+      "url": "https://en.yna.co.kr/RSS/sports.xml",
+      "enabled": true
+    },
+    {
+      "category": "International Outlets",
+      "title": "GMA Network Sports",
+      "url": "https://data.gmanetwork.com/gno/rss/sports/feed.xml",
+      "enabled": true
+    },
+    {
+      "category": "International Outlets",
+      "title": "Inquirer Philippines Sports",
+      "url": "https://sports.inquirer.net/feed",
+      "enabled": true
+    },
+    {
+      "category": "Collegiate & High School",
+      "title": "SuperWest Sports",
+      "url": "https://superwestsports.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports Business & Media Industry",
+      "title": "Front Office Sports",
+      "url": "https://frontofficesports.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports Business & Media Industry",
+      "title": "Sports Media Watch",
+      "url": "https://www.sportsmediawatch.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports Business & Media Industry",
+      "title": "SportsPro Media",
+      "url": "https://www.sportspro.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports Business & Media Industry",
+      "title": "iSportConnect",
+      "url": "https://isportconnect.com/feed",
+      "enabled": true
+    },
+    {
+      "category": "Sports Business & Media Industry",
+      "title": "SportBusiness Global",
+      "url": "https://www.sportbusiness.com/feed",
+      "enabled": false
+    },
+    {
+      "category": "New Orleans & Louisiana",
+      "title": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/feed/",
+      "enabled": true
+    }
+  ]
+}
