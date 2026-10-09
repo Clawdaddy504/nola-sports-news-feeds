@@ -2,7 +2,7 @@
 
 This repo publishes attributed sports headlines from a reviewed list of RSS and Atom sources. It started from `Sports_rss_feeds.zip` (October 2026). The catalog is data, not executable instructions: its sample scripts used hard-coded paths and did not fetch or publish feeds. `sources.json` preserves all 76 proposed sources; 65 that returned parseable RSS/Atom on October 9, 2026 are enabled. A verified Louisiana feed from Crescent City Sports brings the active total to 66.
 
-GitHub Actions refreshes the output every three hours and deploys it to GitHub Pages. Each result contains only a headline, date, source name, and link to the original publisher. No full article body is copied. A failed source is recorded in `index.json` and does not block other sources; a widespread failure stops publication rather than replacing the live data with an empty feed.
+GitHub Actions refreshes the output every three hours and deploys it to GitHub Pages. It commits a small weekly source-health record so the public repository stays active and its scheduled workflow is not disabled after 60 days of inactivity. Each result contains only a headline, date, source name, and link to the original publisher. No full article body is copied. A failed source is recorded in `index.json` and does not block other sources; a widespread failure stops publication rather than replacing the live data with an empty feed.
 
 Published endpoints:
 
